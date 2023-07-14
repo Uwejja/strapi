@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
     'users-permissions': {
       config: {
-      jwtSecret: 'strapi-bortex',
+      jwtSecret: env('strapi-bortex'),
       },
     },
     upload: {
