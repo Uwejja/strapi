@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "the_companies",
+  "info": {
+    "singularName": "the-company",
+    "pluralName": "the-companies",
+    "displayName": "Who We Are Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageName": {
+      "type": "string"
+    },
+    "headertext1": {
+      "type": "richtext"
+    },
+    "navbar": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::navbar.navbar"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TitleText": {
+      "type": "string"
+    }
+  }
+}

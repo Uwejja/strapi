@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bortex_and_friends",
+  "info": {
+    "singularName": "bortex-and-friend",
+    "pluralName": "bortex-and-friends",
+    "displayName": "bortex and friend ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

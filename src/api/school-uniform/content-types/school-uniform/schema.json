@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "school_uniforms",
+  "info": {
+    "singularName": "school-uniform",
+    "pluralName": "school-uniforms",
+    "displayName": "school uniform"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "school": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

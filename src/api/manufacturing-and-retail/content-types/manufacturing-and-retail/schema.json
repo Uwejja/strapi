@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manufacturing_and_retails",
+  "info": {
+    "singularName": "manufacturing-and-retail",
+    "pluralName": "manufacturing-and-retails",
+    "displayName": "Manufacturing & Retail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Page_Title": {
+      "type": "string"
+    },
+    "navbar": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::navbar.navbar"
+    },
+    "CORPORATE_UNIFORMS": {
+      "type": "richtext"
+    },
+    "SCHOOLING_UNIFORMS": {
+      "type": "richtext"
+    },
+    "MADE_TO_MEASURE": {
+      "type": "richtext"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TitleText": {
+      "type": "string"
+    }
+  }
+}

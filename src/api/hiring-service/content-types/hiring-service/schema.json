@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hiring_services",
+  "info": {
+    "singularName": "hiring-service",
+    "pluralName": "hiring-services",
+    "displayName": "hiring service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "service": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
