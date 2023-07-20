@@ -14,7 +14,7 @@
     "@strapi/plugin-users-permissions": "4.11.5",
     "@strapi/provider-upload-cloudinary": "4.11.5",
     "@strapi/strapi": "4.11.5",
-    "cloudinary": "^1.37.3",
+    "cloudinary": "^1.38.0",
     "pg": "8.11.1"
   },
   "author": {
